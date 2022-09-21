@@ -8,6 +8,8 @@ Mini-Project Report
 
 For our first mini project, we worked with the Raspberry Pi Pico. This included downloading the appropriate software and running the pulse width modulation file on our Raspberry Pis and getting familiarized with Github. We first ran the original code given to us and noticed that the LED on the Raspberry Pi was fading in and out at a consistent rate. After running the original code, we proceeded to modify the clock divider. We reduced the counter clock value of the Raspberry Pi Pico by modifying the divider value of 4 to 15. The larger divider value triggered the LED cycle on the Raspberry Pi to operate at a lower frequency. In other words, the system clock modification made the LED blink at a slower rate which can be seen in the attached video measurements. 
 
+Edited pwm_led_fade.c code: https://github.com/EunhyeKwon/2022-hw-mini-EunhyeKwon/blob/main/src/pwm/led_fade/pwm_led_fade_mod.c
+
 
 https://user-images.githubusercontent.com/65688741/191604005-ad1c3edd-7629-4e1c-aaf6-0c717778bcae.mov
 
